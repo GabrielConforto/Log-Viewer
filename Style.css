@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+*{
+    font-family: "Nunito Sans", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu{
+    height: 10vh;
+    background-color: rgb(252, 211, 78);
+    color: white;
+    display: flex;
+    padding-top: 1.5vh;
+    padding-left: 2vh;
+}
+
+.menu a{
+    font-size: 50px;
+    text-decoration: none;
+    color:white;
+}
+
+
+
+.cont{
+   margin: 5vh;
+   width: 90%;
+   align-items: center;
+   justify-content: center;
+   font-weight: 500;
+   
+}
+
+.cont h2{
+    margin-top: 3vh;
+}
+
+.file-upload {
+    margin-top: 5vh;
+    position: relative;
+    width: 75%;
+    height:45vh;
+    margin-left: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #f9f9f9; 
+    box-sizing: border-box;
+    
+  }
+  
+  .file-upload input[type="file"] {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  
+  .file-upload label {
+    position: relative;
+    font-size: 1.6rem;
+    color: #333; 
+  }  
+
+  .log{
+    width: 75%;
+    height: 60vh;
+    background-color: rgba(235, 235, 235, 0.747);
+    border: #000000;
+    border-radius: 15px;
+    overflow: auto;
+    padding: 1vh;
+    scrollbar-width: thin; /* Para navegadores compatíveis com CSS moderno */
+    scrollbar-color: rgba(104, 104, 104, 0.637);
+  }
+
+  .process{
+    margin-left: 85%;
+    margin-top: 5vh;
+    display: grid;
+  }
+  .process button{
+    color: black;
+    padding: 1vh;
+    font-size: 1.1rem;
+    transition: background-color 0.2s ease, font-size 0.2s ease;
+    border-radius: 5px;
+  }
+  .process button:hover{
+    background-color: #a0a0a096;
+    font-size: 1.101rem;
+  }
+
+  .search{
+    margin-bottom: 1vh;
+  }
+
+  .search button{
+      padding: 10px;
+      border-radius: 15px;
+      border: none;
+      transition: background-color 0.2s ease, font-size 0.2s ease;
+  }
+  .search button:hover{
+    background-color: #e4e4e4;
+    font-size: 0.85rem;
+  }
+  .error{
+    margin-left: 15%;
+  }
+  .searchbar{
+    border-radius: 5px;
+    border-color: #8382821e;
+    padding: 5px;
+  }
+  .logbox{
+    margin-left: 20%;
+    margin-top: 10vh;
+  }
+
+
+  #fileContentContainer::-webkit-scrollbar-thumb {
+    background: #888; /* Cor da barra */
+    border-radius: 10px; /* Bordas arredondadas */
+    border: 2px solid #f9f9f9; /* Espaço entre o trilho e a barra */
+}
+  
